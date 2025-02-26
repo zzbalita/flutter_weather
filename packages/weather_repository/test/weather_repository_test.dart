@@ -1,9 +1,7 @@
-// ignore_for_file: prefer_const_constructors
 import 'package:mocktail/mocktail.dart';
 import 'package:open_meteo_api/open_meteo_api.dart' as open_meteo_api;
 import 'package:test/test.dart';
 import 'package:weather_repository/weather_repository.dart';
-import 'package:weather_repository/weather_repository.dart' as open_meteo_api;
 
 class MockOpenMeteoApiClient extends Mock
     implements open_meteo_api.OpenMeteoApiClient {}
